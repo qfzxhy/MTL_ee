@@ -1,1 +1,7 @@
 # MTL_ee
+文件夹absa_semeval_interact里面是基于TensorFlow框架实现的多任务交互模型以及它的baseline单任务模型，以及在semveal数据集上的实验
+文件夹cetc28_News_Event_Extraction是面向中文军事事件抽取项目的核心代码（除了爬虫和前端）
+文件夹Crawler是新闻网页抓取系统（爬虫），目前支持凤凰、新浪、新华、环球中国、环球世界、新华世界6个新闻网站
+文件夹event_extraction是基于TensorFlow框架实现的多任务交互模型以及它的baseline单任务模型，以及在中文军事新闻事件抽取任务上的实验
+文件夹event_extraction_system是多任务模型调用接口，Java会调用test.py
+文件夹web是军事新闻事件抽取的展示，包含jsp文件和后台servlet代码
